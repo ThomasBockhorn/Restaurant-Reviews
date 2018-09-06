@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -12,13 +12,13 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav aria-label="Restaurant Reviews">
         <h1>Restaurant Reviews</h1>
       </nav>
     </header>
 
     <main id="maincontent">
-      <section class="map-container" id="firstmap">
+      <section class="map-container" id="firstmap" aria-label="location" role="application">
         <div id="map"></div>
       </section>
       <section id="filter">
@@ -31,11 +31,11 @@
             <option value="all">All Cuisines</option>
           </select>
         </div>
-        <ul id="restaurants-list"></ul>
+        <ul id="restaurants-list" aria-label="Restaurants"></ul>
       </section>
     </main>
   
-    <footer id="footer">
+    <footer id="footer" aria-label="footer"> 
         Copyright (c) 2017 <strong>Restaurant Reviews</strong> All Rights Reserved.
     </footer>
 
