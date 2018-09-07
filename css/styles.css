@@ -331,12 +331,21 @@ margin: 0;
 
 @media screen and (max-width: 425px){
     /*hide everything except for the map*/
-    #filter,
+    
     #footer{
-        display: none;
+        height: 5%;
+        font-size: 8pt;
+        margin: auto;
+        padding: .5em;
+    }
+    #filter{
+        height: 40%;
+    }
+    .filter-options{
+        height: 100%;
     }
     #firstmap{
-        height: 100%;
+        height: 40%;
         width: 100%;
     }
     #map{
@@ -344,16 +353,16 @@ margin: 0;
     }
     header{
         order: 0;
-        height: 13%;
+        height: 5%;
     }
     #maincontent{
         order: 1;
-        height: 90%;
+        height: 100%;
     }
 
      /*=====restaurant response css=====*/
      .inside #heading{
-        height: 13%;
+        height: 15%;
         width: 100%;
         order: 0;
     }
@@ -366,7 +375,7 @@ margin: 0;
     .inside #maincontent{
         order: 1;
         width: 100%;
-        height: 90%;
+        height: 100%;
         overflow: scroll;
         margin-top: .25em;
         padding-left: 1em;
@@ -376,14 +385,14 @@ margin: 0;
         display: block;
         order: 2;
         width: 100%;
-        height: 10%;
+        height: 8%;
     }
     /*====inside content of restaurant.html=======*/
     .inside #maincontent #map-container{
         order: 0;
         width: 100%;
         height: 33%;
-        margin: 0, auto;
+        margin: 0;
         padding: 0;
         display: block;
         z-index: 1;
@@ -401,7 +410,7 @@ margin: 0;
         order: 2;
         width: 100%;
         height: 33%;
-        margin-top: 25em;
+        margin-top: 28em;
         margin-left: 1em;
         padding-left: 0;
         padding-top: 2em;
